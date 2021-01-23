@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+li {
+    list-style: none;
+}
+body{
+    background-color: rgba(127, 128, 133, 0.651);
+
+}
+
+.head{
+    height: 100px;
+}
+    .headpart{
+        background-color: transparent;
+        width: 800px;
+        margin: 0 auto;
+    }
+    h3{
+        position: relative;
+        background-color: transparent;
+        color:  rgb(255, 255, 255);
+        font-size: 35px;
+        padding: 30px;
+    }
+    .left{
+        float: left;
+       
+    }
+    .right{
+        float: right;
+        padding: 30px;
+    }
+        .ToDo{
+            border: 1px solid #b5c1d6;
+            width: 500px;
+            height: 40px;
+            border-radius: 5px;
+            overflow: hidden;
+            resize: none;
+            outline: medium;
+            font-size: 20px;
+            padding-left: 15px;
+        }
+
+.line{
+    width: 750px;
+    height: 1px;
+    border-top:1px solid azure ;
+    margin: 0 auto;
+}
+
+.event{
+    height: 40px;
+    width: 750px;
+    background-color: azure;
+    border: 2px solid #89aff0;
+    margin: 0 auto;
+    margin-top: 10px;
+    font-size: 20px;
+    padding-left: 15px;
+    padding-top: 10px;
+    border-radius: 10px
+}
+.del{
+    border: 3px solid #65676b;
+    background-color: #b5c1d6;
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    float: right;
+    outline: medium;
+    color: #65676b;
+    margin-right: 10px;
+    margin-top: 2px;
+}
+.event:hover{
+    text-decoration:underline;
+}
+.del:hover{
+    cursor: pointer;
+}
+
+/* .modify{
+    width: 500px;
+    height: 30px;
+    border: 1px solid black;
+} */
